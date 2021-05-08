@@ -11,6 +11,10 @@
    "android": {
      "package": "com.albeniskerqeli.albeniskerqeli",
      "versionCode": 1
-   }
+   },
+   "scripts": {
+    "build": "webpack --mode production",
+    "start": "webpack-dev-server --config ./webpack.config.js --mode development",
+},
   }
 }
