@@ -1,32 +1,16 @@
 {
   "expo": {
-    "name": "todoapp",
-    "slug": "todoapp",
-    "version": "1.0.0",
-    "orientation": "portrait",
-    "icon": "./assets/icon.png",
-    "splash": {
-      "image": "./assets/splash.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
-    },
-    "updates": {
-      "fallbackToCacheTimeout": 0
-    },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
-    "ios": {
-      "supportsTablet": true
-    },
-    "android": {
-      "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#FFFFFF"
-      }
-    },
-    "web": {
-      "favicon": "./assets/favicon.png"
-    }
+   "name": "Todo-App",
+   "icon": "./images/image.png",
+   "version": "1.0.0",
+   "slug": "Todo-App",
+   "ios": {
+     "bundleIdentifier": "com.albeniskerqeli.albeniskerqeli",
+     "buildNumber": "1.0.0"
+   },
+   "android": {
+     "package": "com.albeniskerqeli.albeniskerqeli",
+     "versionCode": 1
+   }
   }
 }
